@@ -7,5 +7,5 @@ class Main_model extends Model
 {
     protected $table = 'form';
  
-    protected $allowedFields = ['jmeno', 'email', 'heslo', 'heslo_znova'];
+    protected $allowedFields = ['jmeno', 'email', 'heslo', 'heslo_znova', 'pohlaví'];
 }

@@ -38,8 +38,35 @@
          <input type="password" class="form-control" id="heslo_znova" placeholder="Zadejte Heslo znova" name="heslo_znova">
      </div>
      <br>
-     <button type="submit" class="btn btn-primary">Přidat</button>
+     <!-- <div class="form-group">
+     <div class="form-check">
+  <input class="form-check-input" value="Muž" type="radio" name="pohlaví" id="flexRadioDefault1">
+  <label class="form-check-label" for="pohlaví">
+   Muž
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" value="Žena" type="radio" name="pohlaví" id="flexRadioDefault2" >
+  <label class="form-check-label" for="pohlaví">
+    Žena
+  </label>
+</div> -->
+<div id="pohlaví" class="form-group">
+    <select type="select" name="pohlaví" class="col-lg-12" >
+    <option selected disabled>Vyberte prosím své pohlaví</option>
+    <option value="Muž">Muž</option>
+    <option value="Žena">Žena</option>
+</select>
+
+</div>
+
+
+<br />
+
+     <br>
+     <button type="submit" class="btn btn-primary col-lg-12"">Přidat</button>
      </form>
 </form>
+</div>
 </body>
 </html>

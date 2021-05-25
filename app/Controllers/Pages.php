@@ -38,7 +38,9 @@ helper(['form', 'url']);
 			'jmeno' => 'required|min_length[3]',
             'email' => 'required|valid_email',
             'heslo' => 'required',
-			'heslo_znova' => 'required|matches[heslo]'
+			'heslo_znova' => 'required|matches[heslo]',
+			'pohlaví' => 'required'
+
 			]);
  
         $model = new Main_model();
@@ -58,7 +60,7 @@ helper(['form', 'url']);
                 'email'  => $this->request->getVar('email'),
                 'heslo'  => $this->request->getVar('heslo'),
                 'heslo_znova'  => $this->request->getVar('heslo_znova'),
-            
+				'pohlaví'  => $this->request->getVar('pohlaví')
 				]);
  
 				
