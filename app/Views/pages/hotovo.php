@@ -16,4 +16,5 @@
     <div class="container mt-5">
      <h1 class="text-center">Děkujeme za registarci na naši stránku</h1>
     </div>
+    <button><a href="<?= base_url() ?>">Zpět na hlavní stránku</a></button>
 </body>

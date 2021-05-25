@@ -64,7 +64,7 @@ helper(['form', 'url']);
 				]);
  
 				
-			echo view('pages/home')
+			echo view('pages/hotovo')
 			;
 				
 			}
